@@ -1,0 +1,25 @@
+:root {
+  --bg: white;
+  --panel: #09eab9;
+  --panel-border: #243055;
+  --text: rgb(0, 0, 0);
+  --muted: #901ff3;
+  --accent: #034cf5;
+  --error: #ff6b6b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, Arial, sans-serif;
+  line-height: 1.5;
+}
